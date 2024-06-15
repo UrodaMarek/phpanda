@@ -1,0 +1,43 @@
+$first: #344e41;
+$second: #3a5a40;
+$third: #588157;
+$fourth: #a3b18a;
+$fifth: black;
+
+$border-dark:white;
+$border-light:black;
+
+$text-dark: white;
+$text-light: black;
+$text-dark-hovered:#dad7cd;
+$text-light-hovered:#2a3225;
+
+$logo-dark: $first;
+$logo-light: $second;
+$logo-text-dark: $text-dark;
+$logo-text-light: $text-dark;
+$logo-text-light-hovered: $text-dark-hovered;
+$logo-text-dark-hovered: $text-dark-hovered;
+
+$menu-dark: $second;
+$menu-light: $third;
+$menu-dark-hovered: darken($second, 10%);
+$menu-light-hovered: darken($third, 10%);
+$menu-border-dark:$border-dark;
+$menu-border-light:$border-dark;
+$menu-text-dark: $text-dark;
+$menu-text-light: $text-dark;
+$menu-text-dark-hovered: $text-dark-hovered;
+$menu-text-light-hovered: $text-dark-hovered;
+
+$content-dark: $third;
+$content-light: $fourth;
+$content-text-dark: $text-dark;
+$content-text-light: $text-light;
+
+$footer-dark: $fifth;
+$footer-light: $fifth;
+$footer-text-dark: $text-dark;
+$footer-text-light: $text-dark;
+
+//TODO: Describe it in documentation

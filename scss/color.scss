@@ -1,0 +1,107 @@
+@import "./themes/theme.scss";
+
+html[data-theme="dark"] {
+    header {
+        background-color: $logo-dark;
+        color: $logo-text-dark;
+
+        a {
+            color: $logo-text-dark;
+        }
+
+        a:hover {
+            color: $logo-text-dark-hovered;
+        }
+
+        a:visited {
+            color: $logo-text-dark;
+        }
+    }
+
+    nav {
+        a {
+            color: $menu-text-dark;
+        }
+
+        a:hover {
+            color: $menu-text-dark-hovered;
+        }
+
+        a:visited {
+            color: $menu-text-dark;
+        }
+
+        .border {
+            border-color: $menu-border-dark;
+        }
+
+        .border:hover {
+            background-color: $menu-dark;
+        }
+
+        div {
+            background-color: $menu-dark;
+        }
+
+        div:hover {
+            background-color: $menu-dark-hovered;
+        }
+    }
+
+    section {
+        color: $content-text-dark;
+        background-color: $content-dark;
+    }
+
+    footer {
+        color: $footer-text-dark;
+        background-color: $footer-dark;
+    }
+}
+
+html[data-theme="light"] {
+    header {
+        background-color: $logo-light;
+        color: $logo-text-light;
+    }
+
+    nav {
+        a {
+            color: $menu-text-light;
+        }
+
+        a:hover {
+            color: $menu-text-light-hovered;
+        }
+
+        a:visited {
+            color: $menu-text-light;
+        }
+
+        .border {
+            border-color: $menu-border-light;
+        }
+
+        .border:hover {
+            background-color: $menu-light;
+        }
+
+        div {
+            background-color: $menu-light;
+        }
+
+        div:hover {
+            background-color: $menu-light-hovered;
+        }
+    }
+
+    section {
+        color: $content-text-light;
+        background-color: $content-light;
+    }
+
+    footer {
+        color: $footer-text-dark;
+        background-color: $footer-light;
+    }
+}

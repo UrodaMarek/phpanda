@@ -1,0 +1,66 @@
+@import "./color.scss";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    width: 100vw;
+    section {
+        width: calc(100vw - 40px);
+        min-height: calc(100vh - 56px - 43px - 65px - 40px);
+        clear: both;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+header {
+    width: 100%;
+    padding: 10px 0;
+
+    h1 {
+        margin: 0;
+        padding: 0 10px;
+        a {
+            float:inline-end;
+        }
+    }
+}
+
+nav {
+    width:100%;
+    clear: both;
+
+    a {
+        transition: 0.5s;
+    }
+
+    .border{
+        border-left: 5px dotted;
+        width: 0px;
+        float: left;
+    }
+    .border:hover {
+        cursor: default;
+    }
+    div {
+        transition: 0.5s;
+        width:calc(100% / 3 - 10px / 3);
+        float: left;
+        text-align: center;
+        padding: 10px 0;
+    }
+    div:hover {
+        cursor: pointer;
+    }
+}
+
+footer {
+    font-size: 1em;
+    text-align: center;
+    padding: 5px;
+}
