@@ -11,7 +11,7 @@ main {
     width: 100vw;
     section {
         width: calc(100vw - 40px);
-        min-height: calc(100vh - 56px - 43px - 65px - 40px);
+        min-height: calc(100vh - 20px - 20px - 40px - 20px - 38px - 38px - 19px);
         clear: both;
         padding: 20px;
         text-align: center;
@@ -62,5 +62,5 @@ nav {
 footer {
     font-size: 1em;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
 }
