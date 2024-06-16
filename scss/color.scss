@@ -1,6 +1,8 @@
 @import "./themes/theme.scss";
 
 html[data-theme="dark"] {
+    background-color: $footer-dark;
+
     header {
         background-color: $logo-dark;
         color: $logo-text-dark;
@@ -60,9 +62,23 @@ html[data-theme="dark"] {
 }
 
 html[data-theme="light"] {
+    background-color: $footer-light;
+
     header {
         background-color: $logo-light;
         color: $logo-text-light;
+
+        a {
+            color: $logo-text-light;
+        }
+
+        a:hover {
+            color: $logo-text-light-hovered;
+        }
+
+        a:visited {
+            color: $logo-text-light;
+        }
     }
 
     nav {

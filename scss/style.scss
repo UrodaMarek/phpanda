@@ -28,6 +28,9 @@ header {
         a {
             float: inline-end;
         }
+        a:hover {
+            cursor: pointer;
+        }
     }
 }
 
@@ -36,7 +39,7 @@ nav {
     clear: both;
 
     a {
-        transition: 0.5s;
+        transition-delay: 0.5s;
     }
 
     .border {
@@ -53,6 +56,12 @@ nav {
         float: left;
         text-align: center;
         padding: 10px 0;
+        div {
+            visibility: hidden;
+            padding: 0px;
+            width: 0px;
+            height: 0px;
+        }
     }
     div:hover {
         cursor: pointer;
@@ -60,7 +69,6 @@ nav {
 }
 
 footer {
-    font-size: 1em;
     text-align: center;
     padding: 10px;
 }

@@ -20,10 +20,10 @@ function menu()
     echo
         "
         <nav>
-            <a href=\"./index.php\"><div><i class=\"icon-home\"></i></div></a>
-            <div class=\"border\">W</div>
+            <a href=\"./index.php\"><div><i class=\"icon-home\"></i><div>Strona Główna</div></div></a>
+            <div class=\"border\">=======</div>
             <a href=\"./index.php?p=rebuild\"><div>Odbuduj</div></a>
-            <div class=\"border\">W</div>
+            <div class=\"border\">=======</div>
             <a href=\"./index.php?p=repair\"><div>Napraw</div></a>
         </nav>
         ";
@@ -45,10 +45,12 @@ function footer()
 {
     echo
         "
-        <footer>
-            Wszystkie prawa zastrzeżone. &copy; 2024<br/>
-            Stworzone przez Marek7639
-        </footer>
+        <div>
+            <footer>
+                Wszystkie prawa zastrzeżone. &copy; 2024<br/>
+                Stworzone przez Marek7639
+            </footer>
+        </div>
         ";
 }
 ?>
