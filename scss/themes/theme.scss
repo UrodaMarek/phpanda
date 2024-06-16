@@ -4,13 +4,13 @@ $third: #588157;
 $fourth: #a3b18a;
 $fifth: black;
 
-$border-dark:white;
-$border-light:black;
+$border-dark: white;
+$border-light: black;
 
 $text-dark: white;
 $text-light: black;
-$text-dark-hovered:#dad7cd;
-$text-light-hovered:#2a3225;
+$text-dark-hovered: #dad7cd;
+$text-light-hovered: #2a3225;
 
 $logo-dark: $first;
 $logo-light: $second;
@@ -23,8 +23,8 @@ $menu-dark: $second;
 $menu-light: $third;
 $menu-dark-hovered: darken($second, 10%);
 $menu-light-hovered: darken($third, 10%);
-$menu-border-dark:$border-dark;
-$menu-border-light:$border-dark;
+$menu-border-dark: $border-dark;
+$menu-border-light: $border-dark;
 $menu-text-dark: $text-dark;
 $menu-text-light: $text-dark;
 $menu-text-dark-hovered: $text-dark-hovered;

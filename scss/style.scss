@@ -1,6 +1,6 @@
 @import "./color.scss";
 
-body{
+body {
     margin: 0px;
     padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -26,20 +26,20 @@ header {
         margin: 0;
         padding: 0 10px;
         a {
-            float:inline-end;
+            float: inline-end;
         }
     }
 }
 
 nav {
-    width:100%;
+    width: 100%;
     clear: both;
 
     a {
         transition: 0.5s;
     }
 
-    .border{
+    .border {
         border-left: 5px dotted;
         width: 0px;
         float: left;
@@ -49,7 +49,7 @@ nav {
     }
     div {
         transition: 0.5s;
-        width:calc(100% / 3 - 10px / 3);
+        width: calc(100% / 3 - 10px / 3);
         float: left;
         text-align: center;
         padding: 10px 0;
