@@ -53,6 +53,17 @@ html[data-theme="dark"] {
     section {
         color: $content-text-dark;
         background-color: $content-dark;
+
+        a {
+            color: $content-text-dark;
+        }
+        a:hover {
+            color: $content-text-dark-hovered;
+        }
+
+        a:visited {
+            color: $content-text-dark;
+        }
     }
 
     footer {
@@ -114,6 +125,18 @@ html[data-theme="light"] {
     section {
         color: $content-text-light;
         background-color: $content-light;
+
+        a {
+            color: $content-text-light;
+        }
+
+        a:hover {
+            color: $content-text-light-hovered;
+        }
+
+        a:visited {
+            color: $content-text-light;
+        }
     }
 
     footer {

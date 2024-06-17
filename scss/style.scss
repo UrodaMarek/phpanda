@@ -5,6 +5,10 @@ body {
     padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px !important;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 main {
@@ -16,6 +20,10 @@ main {
         clear: both;
         padding: 20px;
         text-align: center;
+
+        a {
+            font-weight: bold;
+        }
     }
 }
 
