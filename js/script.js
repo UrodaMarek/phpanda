@@ -3,16 +3,19 @@ function changeTheme() {
     let html = document.documentElement;
     let button = document.getElementById("themeChanger");
     let theme = html.getAttribute("data-theme");
-    //TODO: Use switch and make it smarter.
 
-    if (theme == "dark") {
-        localStorage.setItem("theme", "light");
-        html.setAttribute("data-theme", "light");
-        button.setAttribute("class", "icon-sun");
-    } else if (theme == "light") {
-        localStorage.setItem("theme", "dark");
-        html.setAttribute("data-theme", "dark");
-        button.setAttribute("class", "icon-moon");
+    switch (theme) {
+        case "dark":
+            localStorage.setItem("theme", "light");
+            html.setAttribute("data-theme", "light");
+            button.setAttribute("class", "icon-sun");
+            break;
+
+        case "light":
+            localStorage.setItem("theme", "dark");
+            html.setAttribute("data-theme", "dark");
+            button.setAttribute("class", "icon-moon");
+            break;
     }
 }
 
@@ -22,15 +25,19 @@ function catchMyTheme() {
     let button = document.getElementById("themeChanger");
     let theme = localStorage.getItem("theme");
 
-    if (theme == "light") {
-        html.setAttribute("data-theme", "light");
-        button.setAttribute("class", "icon-sun");
+    switch (theme) {
+        case "light":
+            html.setAttribute("data-theme", "light");
+            button.setAttribute("class", "icon-sun");
+            break;
 
-    } else if (theme == "dark") {
-        html.setAttribute("data-theme", "dark");
-        button.setAttribute("class", "icon-moon");
-
+        case "dark":
+            html.setAttribute("data-theme", "dark");
+            button.setAttribute("class", "icon-moon");
+            break;
     }
 }
 
 catchMyTheme();
+
+//TODO: Find that if the taking of all html tag is safe option.

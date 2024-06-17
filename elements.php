@@ -20,11 +20,11 @@ function menu()
     echo
         "
         <nav>
-            <a href=\"./index.php\"><div><i class=\"icon-home\"></i><div>Strona Główna</div></div></a>
+            <a href=\"./index.php\" title=\"Strona Główna\"><div><i class=\"icon-home\"></i><div>Strona Główna</div></div></a>
             <div class=\"border\">=======</div>
-            <a href=\"./index.php?p=rebuild\"><div>Odbuduj</div></a>
+            <a href=\"./index.php?p=rebuild\" title=\"Odbuduj\"><div>Odbuduj</div></a>
             <div class=\"border\">=======</div>
-            <a href=\"./index.php?p=repair\"><div>Napraw</div></a>
+            <a href=\"./index.php?p=repair\" title=\"Napraw\"><div>Napraw</div></a>
         </nav>
         ";
 }
@@ -37,22 +37,23 @@ function content()
         "
         <section>
         ";
-
+    if (isset($_GET["p"])) {
         switch ($_GET["p"]) {
             case "rebuild":
+                rebuild();
                 break;
             case "repair":
+                repair();
                 break;
             default:
                 mainPage();
                 break;
         }
-
-    echo 
+    }
+    echo
         "
         </section>
         ";
-    //TODO: Make Backend, switch, secure connection to database, handle JSON files.
 }
 
 function footer()
