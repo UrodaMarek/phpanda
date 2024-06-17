@@ -26,7 +26,7 @@ html[data-theme="dark"] {
         }
 
         a:hover {
-            color: $menu-text-dark-hovered;
+            color: $menu-text-dark-hovered !important;
         }
 
         a:visited {
@@ -87,7 +87,7 @@ html[data-theme="light"] {
         }
 
         a:hover {
-            color: $menu-text-light-hovered;
+            color: $menu-text-light-hovered !important;
         }
 
         a:visited {

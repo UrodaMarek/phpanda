@@ -27,8 +27,8 @@ $menu-border-dark: $border-dark;
 $menu-border-light: $border-dark;
 $menu-text-dark: $text-dark;
 $menu-text-light: $text-dark;
-$menu-text-dark-hovered: $text-dark; // There should be $text-dark-hovered, but in such case we have a bug.
-$menu-text-light-hovered: $text-dark; // There should be $text-dark-hovered, but in such case we have a bug.
+$menu-text-dark-hovered: $text-dark-hovered;
+$menu-text-light-hovered: $text-dark-hovered;
 
 $content-dark: $third;
 $content-light: $fourth;

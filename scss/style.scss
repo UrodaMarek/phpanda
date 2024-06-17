@@ -4,6 +4,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px !important;
 }
 
 main {
@@ -11,7 +12,7 @@ main {
     width: 100vw;
     section {
         width: calc(100vw - 40px);
-        min-height: calc(100vh - 20px - 20px - 40px - 20px - 38px - 38px - 19px);
+        min-height: calc(100vh - 20px - 20px - 40px - 20px - 46px - 46px - 23px);
         clear: both;
         padding: 20px;
         text-align: center;
