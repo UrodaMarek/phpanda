@@ -54,6 +54,11 @@ html[data-theme="dark"] {
         color: $content-text-dark;
         background-color: $content-dark;
 
+        header {
+            color: $content-text-dark;
+            background-color: $content-dark;
+        }
+
         a {
             color: $content-text-dark;
         }
@@ -63,6 +68,16 @@ html[data-theme="dark"] {
 
         a:visited {
             color: $content-text-dark;
+        }
+
+        button {
+            color: $content-text-button-dark;
+            background-color: $content-button-dark;
+        }
+
+        button:hover {
+            color: $content-text-button-dark-hovered;
+            background-color: $content-button-dark-hovered;
         }
     }
 
@@ -126,6 +141,11 @@ html[data-theme="light"] {
         color: $content-text-light;
         background-color: $content-light;
 
+        header {
+            color: $content-text-light;
+            background-color: $content-light;
+        }
+
         a {
             color: $content-text-light;
         }
@@ -136,6 +156,15 @@ html[data-theme="light"] {
 
         a:visited {
             color: $content-text-light;
+        }
+
+        button {
+            color: $content-text-button-light;
+            background-color: $content-button-light;
+        }
+        button:hover {
+            color: $content-text-button-light-hovered;
+            background-color: $content-button-light-hovered;
         }
     }
 

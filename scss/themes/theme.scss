@@ -32,10 +32,18 @@ $menu-text-light-hovered: $text-dark-hovered;
 
 $content-dark: $third;
 $content-light: $fourth;
+$content-button-dark: $second;
+$content-button-light: $third;
+$content-button-dark-hovered: darken($second, 10%);
+$content-button-light-hovered: darken($third, 10%);
 $content-text-dark: $text-dark;
 $content-text-light: $text-light;
 $content-text-dark-hovered: $text-dark-hovered;
 $content-text-light-hovered: $text-light-hovered;
+$content-text-button-dark: $text-dark;
+$content-text-button-light: $text-dark;
+$content-text-button-dark-hovered: $text-dark-hovered;
+$content-text-button-light-hovered: $text-dark-hovered;
 
 $footer-dark: $fifth;
 $footer-light: $fifth;
